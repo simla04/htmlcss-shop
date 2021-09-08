@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    font-family: initial;
+}
+.container{
+    margin: 25px auto;
+    width: 60%;
+}
+
+.container::after{
+    content: "";
+  display: table;
+  clear: both;
+}
+
+.sconto{
+    background-color:rgba(235, 0, 55, 1);
+    color: white;
+    width: 46px;
+    text-align:justify;
+    padding: 3px;
+    position: absolute;
+    bottom: 121px;
+    font-size: 16px;
+}
+
+.sostenibilità{
+    background-color:rgba(0, 135, 90, 1);
+    color: white;
+    width: 93px;
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    bottom: 120px;
+    left: 237px;
+    font-size: 16px;
+    }
+
+.like{
+   background-color: white;
+    width: 46px;
+    padding: 9px;
+    text-align: center;
+    position: absolute;
+    bottom: 566px;
+    left: 508px;
+    
+}
+
+
+    .product1 img{
+        width: 366px;
+    }
+    .offerta{
+        color: rgba(255, 0, 0, 1);
+    }
